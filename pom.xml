@@ -26,10 +26,17 @@
       <version>9</version>
     </parent>
 
+	<packaging>pom</packaging>
+	
 	<groupId>org.jboss</groupId>
 	<artifactId>jboss-openjdk-corba</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
+	<modules>
+		<module>fork</module>
+		<module>ext</module>
+	</modules>
+		
 	<scm>
 		<connection>scm:git:git@github.com:jbossas/jboss-openjdk-corba.git</connection>
 		<developerConnection>scm:git:git@github.com:jbossas/jboss-openjdk-corba.git</developerConnection>
